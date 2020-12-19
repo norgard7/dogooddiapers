@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+       
+}
+/* theme colors #5888BF blue, #80B48E green */
+.logo {
+    height: 120px;
+    width: 220px;
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+    padding: 0px 50px 20px 0px;
+    cursor: pointer;
+    float: left; 
+}
+nav{
+    width:100vw;
+    min-width: 1200px;
+    display: flex;
+    height: 20vh;
+    background-color:white;
+    font-family: nunito, sans-serif;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    float: left;
+    position: relative;
+    padding: 80px 10px 10px 10px;
+    
+    
+}
+.navbar-links ul {
+    float: left;
+    
+}
+.navbar-links ul li {
+  float: left;
+  list-style: none;
+  position: relative; 
+  
+}
+.navbar-links ul li a{
+    display: block;
+    font-family: nunito, sans-serif;
+    color:black;
+    font-size: 20px;
+    padding: 15px 55px;
+    text-decoration: none;
+}
+.navbar-links ul li:hover  {
+    background-color:#5888BF;
+    border-radius: 5px;
+}
+.navbar-links ul li ul {
+    display: none;
+    position: absolute;
+    background-color:white;
+    border-radius: 0px 0px 4px 4px;
+    padding: 10px;
+    font-size: 16px;  
+}
+
+.navbar-links ul li:hover ul {
+    display: block;
+}
+
+.navbar-links ul li ul li {
+    width: 230px;
+    border-radius: 4px;
+    
+      
+}
+.navbar-links ul li ul li a {
+    padding: 8px 12px;
+    display: block;
+    color: #577699;
+
+    
+}
+.navbar-links ul li ul li a:hover {
+    color:black;
+    background-color:white;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer; 
+    z-index: 1; 
+}
+.buttons{
+    position: absolute;
+    color: black;
+    right:60px;
+    top:10px;
+    
+}
+#cart{
+    background-color:rgb(183, 185, 187); 
+    font-family: nunito, sans-serif;
+    border-radius: 3px;
+    border: none; 
+    font-size: 20px;
+    width: 120px; 
+    height: 40px; 
+}
+#cart:hover {
+    color: white;
+    background-color:#80B48E ;
+
+}
+#login {
+    background-color:rgb(183, 185, 187); 
+    font-family: nunito, sans-serif;
+    border-radius: 2px;
+    border: none; 
+    font-size: 20px;
+    width: 120px; 
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+}
+/* .fas fa-sign-in-alt {
+    padding: 5px;
+} */
+#login:hover {
+    color: white;
+    background-color:#5888BF ;
+}
+
+
+/* main heading h1 "we do the dirty work for you!*/
+#container-heading {
+    background: linear-gradient(115deg,#5888BF,white, #5888BF);
+    clear: both;
+    
+}
+
+h1 {
+    font-size: 10vh;
+    text-align:center;
+    font-family: nunito,sans-serif;
+    text-transform: capitalize;
+    padding: 30px 15px 30px 15px;
+}
+/* left sidebar why choose cloth diapers */
+.sidebar {
+    border: solid black 4px;
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    padding: 50px 55px;
+    position: relative;
+    z-index: -1;
+    
+    
+    
+}
+.sidebar h2 {
+    font-family: Nunito, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+#leftsidebar {
+    float: left;
+    left:100px;
+    top:20px;
+    
+    
+}  
+/* why choose cloth diapers */
+#leftsidebar h3  {
+    font-family: Nunito,sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-top:5px;
+}
+
+#leftsidebar p {
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    font-family: nunito, sans-serif;
+    font-size: 16px;
+
+}
+#rightsidebar {
+    float: right;
+    right: 100px;
+    top: 20px;
+    
+}
+#rightsidebar h3 {
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+#rightsidebar p {
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    font-family: nunito, sans-serif;
+    font-size: 16px;
+}
+/* explore our services heading */
+h5 {
+  font-size: 50px;
+  
+  
+}
+/* Explore services Heading */
+#exploreservices {
+    text-align: center;
+    clear: both;
+    background: linear-gradient(115deg,#5888BF,white, #5888BF);
+    font-family: nunito, sans-serif;
+    position: relative;
+    top: 50px;
+    padding: 30px 15px 30px 15px
+}
+
+.servicesh3 {
+    font-family: nunito, sans-serif;
+    font-size: 24px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    
+    
+
+}
+.servicelogos {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    padding: 10px;
+    left: 60px;
+    top: 35px;
+    
+    
+}
+.clothdiapers-explore {
+    border: solid 3px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 60px;
+    top: 80px;
+    
+}
+.compostable-explore {
+    border: solid 3px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    /* display: inline; */
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 80px;
+
+    
+}
+.services-explore {
+    border: solid 3px;
+    border-radius:50%;
+    height: 300px;
+    width: 300px;
+    float: right;
+    right:60px;
+    position: relative;
+    top: 80px;
+}
+.footer {
+    font-family: nunito, sans-serif;
+    font-size: 16px;
+    position: relative;
+    padding: 20px;
+    top: 500px;
+    right: 600px;
+    float:left;
+    border: darkgray 2px solid;
+    
+}
+h6{
+    font-family: nunito, sans-serif;
+    font-size: 20px;
+    text-decoration: underline
+}
+
+
+
+
+
